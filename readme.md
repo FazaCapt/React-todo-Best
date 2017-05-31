@@ -29,3 +29,6 @@ New Git Way:
 5. git remove rm origin
 6. git remove -v
 7. dan membuat git repository baru
+
+Penjelasan:
+1. Jadi Spread adalah (...) => titik tiga
