@@ -20,6 +20,9 @@
 18. Styling TodoApp, AddTodo, & TodoSearch 13:28
 19. Styling Todo 
 
+Install:
+1. node-uuid -save-dev
+
 New Git Way:
 
 1. git clone 'https://github.com/FazaCapt/React-todo-Best.git'
@@ -32,3 +35,4 @@ New Git Way:
 
 Penjelasan:
 1. Jadi Spread adalah (...) => titik tiga
+
