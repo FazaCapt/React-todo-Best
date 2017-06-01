@@ -19,17 +19,3 @@ module.exports = {
         return $.isArray(todos) ? todos : []; //lebih singkat
     }
 };
-
-
-//         // ini penjelsan return yang diatas.
-//         // if($.isArray(todos)){
-//         //     return todos;
-//         // } else {
-//         //     return[];
-//         // }
-
-//         // '[1,2]' => string
-//         // [1,2] => Parse
-
-// cara ngecek dibrowser
-// localStorage.getItem('todos');
