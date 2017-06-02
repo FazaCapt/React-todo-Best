@@ -22,6 +22,7 @@
 
 Install:
 1. node-uuid -save-dev
+2. moment@2.12.0 --save-dev
 
 New Git Way:
 
@@ -36,3 +37,6 @@ New Git Way:
 Penjelasan:
 1. Jadi Spread adalah (...) => titik tiga
 
+cara menggunakannya:
+
+1. untuk menghapus data di localstorage: localStorage.removeItem('todos');
