@@ -25,6 +25,7 @@ Install:
 2. moment@2.12.0 --save-dev
 3. deep-freeze-strict --save-dev
 4. redux@3.3.1 --save-dev
+5. react-redux@4.4.1 --save-dev
 
 New Git Way:
 
