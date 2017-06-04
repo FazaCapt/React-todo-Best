@@ -2,7 +2,7 @@ var React = require('react');
 var {connect} = require('react-redux');
 // var Todo = require('Todo');
 import Todo from 'Todo';
-var TodoAPI = require('TodoApi');
+var TodoAPI = require('TodoAPI');
 
 export var TodoList = React.createClass({
     render: function(){
