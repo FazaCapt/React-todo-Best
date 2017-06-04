@@ -21,9 +21,10 @@
 19. Styling Todo 
 
 Install:
-1. node-uuid -save-dev
+1. node-uuid --save-dev
 2. moment@2.12.0 --save-dev
 3. deep-freeze-strict --save-dev
+4. redux@3.3.1 --save-dev
 
 New Git Way:
 
