@@ -12,9 +12,9 @@ store.subscribe(() => {
   console.log('New State', store.getState());
 });
 
-store.dispatch(actions.addTodo('Clean the yard'));
-store.dispatch(actions.setSearchText('Yard'));
-store.dispatch(actions.toggleShowCompleted());
+// store.dispatch(actions.addTodo('Clean the yard'));
+// store.dispatch(actions.setSearchText('Yard'));
+// store.dispatch(actions.toggleShowCompleted());
 
 // Load foundation
 $(document).foundation();
