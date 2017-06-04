@@ -23,6 +23,7 @@
 Install:
 1. node-uuid -save-dev
 2. moment@2.12.0 --save-dev
+3. deep-freeze-strict --save-dev
 
 New Git Way:
 
