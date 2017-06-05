@@ -26,6 +26,7 @@ Install:
 3. deep-freeze-strict --save-dev
 4. redux@3.3.1 --save-dev
 5. react-redux@4.4.1 --save-dev
+6. firebase@3.0.2 --save-dev
 
 New Git Way:
 
@@ -43,3 +44,29 @@ Penjelasan:
 cara menggunakannya:
 
 1. untuk menghapus data di localstorage: localStorage.removeItem('todos');
+
+
+ Databases & Authentication With Firebase
+
+1. Setting Up Firebase 10:33
+2. Saving Data 8:44
+3. Updating Data 9:19
+4. Removing & Navigating Data 5:50
+5. Fetching Your Data 11:01
+6. Working With Arrays 10:58
+7. Async Actions (Adding Todos To Firebase) 14:58
+8. Testing Async Actions 16:04
+9. Saving Todo Updates 9:52
+10. Testing Todo Updates 17:31
+11. Fetch Todos From Firebase 11:20
+12. Testing startAddTodos() 11:57
+13. Webpack On Heroku 13:45
+14. Environment Variables & Separate Databases 17:18
+15. Heroku Environment Variables 5:03
+16. Adding Login Page & Logout Button 16:42
+17. Firebase Login & Logout 17:05
+18. Private Pages & Redirects 16:36
+19. Login Reducer & Actions 18:57
+20. Firebase Security Rules 13:58
+21. Testing With Authentication 11:58
+22. Clearing Todos on Logout 
