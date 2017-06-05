@@ -27,6 +27,7 @@ Install:
 4. redux@3.3.1 --save-dev
 5. react-redux@4.4.1 --save-dev
 6. firebase@3.0.2 --save-dev
+7. redux-thunk@2.0.1 --save-dev
 
 New Git Way:
 
