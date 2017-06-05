@@ -27,7 +27,8 @@ Install:
 4. redux@3.3.1 --save-dev
 5. react-redux@4.4.1 --save-dev
 6. firebase@3.0.2 --save-dev
-7. redux-thunk@2.0.1 --save-dev
+7. redux-thunk@2.1.0 --save-dev
+8. redux-mock-store@1.0.3 --save-dev
 
 New Git Way:
 
@@ -71,3 +72,5 @@ cara menggunakannya:
 20. Firebase Security Rules 13:58
 21. Testing With Authentication 11:58
 22. Clearing Todos on Logout 
+
+

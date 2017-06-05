@@ -1,5 +1,5 @@
-import firebase, {firebaseRef} from 'app/firebase/'
-import moment from 'moment'
+import moment from 'moment';
+import firebase, {firebaseRef} from 'app/firebase/';
 
 
 export var setSearchText = (searchText) => {
@@ -25,7 +25,6 @@ export var addTodo = (todo) => {
 export var startAddTodo = (text) => {
     return (dispatch, getState) => {
         var todo = {
-                    // id: uuid(),
                     text,
                     completed: false,
                     createdAt: moment().unix(),
