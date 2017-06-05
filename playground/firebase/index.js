@@ -32,9 +32,37 @@ firebaseRef.set({
     }
 });
 
-firebaseRef.child('app').update({name: 'Firebase'});
+// firebaseRef.remove();
+// firebaseRef.child('app/name').remove();
 
-firebaseRef.child('user').update({name: 'Mamah'});
+// firebaseRef.child('app').update({
+//     version: '3.0.1',
+//     name: null
+// });
+
+
+firebaseRef.update({
+    isRunning: null
+});
+
+firebaseRef.child('user/age').remove();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// firebaseRef.child('app').update({name: 'Firebase'});
+
+// firebaseRef.child('user').update({name: 'Mamah'});
 
 
 
