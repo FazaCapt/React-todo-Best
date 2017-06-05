@@ -30,22 +30,64 @@ firebaseRef.set({
         name: 'Faza',
         age: 25
     }
-}).then(() => {
-    console.log('Set worked!');
-}, (e) => {
-    console.log('Set failed'); 
-})
+});
+
+firebaseRef.child('app').update({name: 'Firebase'});
+
+firebaseRef.child('user').update({name: 'Mamah'});
+
+
+
+
+// firebaseRef.update({
+//     'app/name' : 'React Todo',
+//     'user/name' : 'Qipli'
+// });
+
+// .then(() => {
+//     console.log('Set worked!');
+// }, (e) => {
+//     console.log('Set failed'); 
+// });
+
+// firebaseRef.update({
+//     isRunning: false,
+//     app: {
+//         name: 'Todo Application'
+//     }
+// });
+
+// firebaseRef.update({
+//     isRunning: false,
+//         'app/name' : 'Todo Yuhuu'
+// });
+
+// firebaseRef.child('app').update({
+//     name: 'Todo Asyik'
+// }).then(() => {
+//     console.log('Update Worked');
+// }, (e) => {
+//     console.log('Update failed');
+// })
+
+
+
+
+
+
+
+
 
 // firebaseRef.set({
 //     appName: 'Todo Application'
 // });
 
 
-firebaseRef.child('user').set({
-    name: 'Panji'
-});
+// firebaseRef.child('user').set({
+//     name: 'Panji'
+// });
 
 
-firebaseRef.child('app').set({
-    name: 'Todo Application'
-});
+// firebaseRef.child('app').set({
+//     name: 'Todo Application'
+// });
