@@ -47,7 +47,7 @@ Penjelasan:
 cara menggunakannya:
 
 1. untuk menghapus data di localstorage: localStorage.removeItem('todos');
-2. 1. untuk mengambil data di localstorage: localStorage.getItem('todos');
+2. untuk mengambil data di localstorage: localStorage.getItem('todos');
 
 USE WEBPACK:
 1. NODE_ENV=production webpack (ini lumayan)

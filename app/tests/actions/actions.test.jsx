@@ -135,9 +135,7 @@ describe('Actions', () => {
 
         done();
       }, done);
-    });
-
-   
+    }); 
      
      it('should populate todos and dispatch ADD_TODOS', (done) => {
          const store = createMockStore({auth: {uid}});
