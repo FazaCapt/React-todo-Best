@@ -29,6 +29,7 @@ Install:
 6. firebase@3.0.2 --save-dev
 7. redux-thunk@2.1.0 --save-dev
 8. redux-mock-store@1.0.3 --save-dev
+9. node-env-file@0.1.8
 
 New Git Way:
 
