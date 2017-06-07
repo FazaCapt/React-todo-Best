@@ -48,6 +48,10 @@ cara menggunakannya:
 1. untuk menghapus data di localstorage: localStorage.removeItem('todos');
 2. 1. untuk mengambil data di localstorage: localStorage.getItem('todos');
 
+USE WEBPACK:
+1. NODE_ENV=production webpack (ini lumayan)
+2. NODE_ENV=production webpack -p (ini dicompress lebih kecil lagi)
+
 
  Databases & Authentication With Firebase
 
