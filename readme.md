@@ -46,6 +46,7 @@ Penjelasan:
 cara menggunakannya:
 
 1. untuk menghapus data di localstorage: localStorage.removeItem('todos');
+2. 1. untuk mengambil data di localstorage: localStorage.getItem('todos');
 
 
  Databases & Authentication With Firebase

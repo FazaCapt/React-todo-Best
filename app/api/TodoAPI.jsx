@@ -1,23 +1,23 @@
 var $ = require('jquery');
 
 module.exports = {
-    setTodos: function (todos){
-        if ($.isArray(todos)){
-            localStorage.setItem('todos', JSON.stringify(todos));
-            return todos;
-        }
-    },
-    getTodos: function (){
-        var stringTodos = localStorage.getItem('todos');
-        var todos = [];
+    // setTodos: function (todos){
+    //     if ($.isArray(todos)){
+    //         localStorage.setItem('todos', JSON.stringify(todos));
+    //         return todos;
+    //     }
+    // },
+    // getTodos: function (){
+    //     var stringTodos = localStorage.getItem('todos');
+    //     var todos = [];
 
-        try{
-            todos = JSON.parse(stringTodos);
-        } catch (e){
+    //     try{
+    //         todos = JSON.parse(stringTodos);
+    //     } catch (e){
 
-        }
-        return $.isArray(todos) ? todos : []; //lebih singkat
-    },
+    //     }
+    //     return $.isArray(todos) ? todos : []; //lebih singkat
+    // },
     filterTodos: function(todos, showCompleted, searchText) {
         var filteredTodos = todos;
 
