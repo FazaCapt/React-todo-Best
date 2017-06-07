@@ -25,3 +25,28 @@
 }
 
 // 3. write four test. login action.login action. login reducer.logout reducer
+
+
+// ====================================
+
+
+{
+    todos: {
+        12341234: {
+            text: 'something'
+        }
+    }
+}
+
+{
+    users: {
+        someuid: {
+            name: 'Faza',
+            todos: {
+                123anc: {
+                    text: 'Something to do'
+                }
+            }
+        }
+    }
+}
