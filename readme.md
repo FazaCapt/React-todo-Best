@@ -36,9 +36,9 @@ New Git Way:
 1. git clone 'https://github.com/FazaCapt/React-todo-Best.git'
 2. mv react-boilerplate ReactTodo
 3. ls
-4. git remove -v
-5. git remove rm origin
-6. git remove -v
+4. git remote -v
+5. git remote rm origin
+6. git remote -v
 7. dan membuat git repository baru
 
 Penjelasan:
