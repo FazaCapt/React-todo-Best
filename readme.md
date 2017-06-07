@@ -80,3 +80,15 @@ USE WEBPACK:
 22. Clearing Todos on Logout 
 
 
+Heroku Environment Variables:
+1. heroku config
+2. heroku config:set name=Faza
+3. heroku config
+4. heroku config: unset name
+5. heroku config
+6. heroku config:set API_KEY=AIzaSyAmg0KjPDY9i0F6lpIrRiC9H3uCGmywwPM
+7. heroku config:set AUTH_DOMAIN=todo-app-2507b.firebaseapp.com
+8. heroku config:set DATABASE_URL=https://todo-app-2507b.firebaseio.com
+9. heroku config:set STOREAGE_BUCKET=todo-app-2507b.appspot.com
+10. git status
+11. git push heroku master
